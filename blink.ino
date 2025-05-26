@@ -1,10 +1,8 @@
 // Blink with errors - Students must fix it
 
-
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);  // خطأ: المفروض OUTPUT بدل INPUT
 }
-
 
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);   // خطأ: المفروض HIGH لتشغيل LED
