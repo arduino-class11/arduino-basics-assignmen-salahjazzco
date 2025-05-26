@@ -7,6 +7,6 @@ void setup() {
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);   // خطأ: المفروض HIGH لتشغيل LED
   delay(500);                       // نصف ثانية تأخير
-  digitalWrite(LED_BUILTIN, HIGH);  // خطأ: المفروض LOW لإطفاء LED
+  digitalWrite(LED_BUILTIN, low);  // خطأ: المفروض LOW لإطفاء LED
   delay(500);                       // نصف ثانية تأخير
 }
